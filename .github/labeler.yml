@@ -1,0 +1,12 @@
+# Add 'repo' label to any root file changes
+hacktoberfest:
+  - '*'
+
+# Add 'test' label to any change to *.spec.js files within the source dir
+test:
+  - ['apps/**/*.spec.js', 'apps/**/*.spec.ts', 'apps/**/*.spec.tsx']
+  - ['libs/**/*.spec.js', 'libs/**/*.spec.ts', 'libs/**/*.spec.tsx']
+
+# Add 'config` label to any change to *.json files
+config:
+  - any: ['src/**/*.json']
